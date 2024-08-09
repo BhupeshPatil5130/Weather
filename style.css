@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    margin: none;
+    padding: 0%;
+}
+.search input{
+    border: white;
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+    text-decoration-color: #00feba;
+}
+.search button{
+    border-radius: 45%;
+    height: 30px;
+    border: white;
+    width: 42px;
+    
+}
+.search button:hover{
+    background-color: rgb(212, 209, 209);
+}
+
+.card h2{
+    color: rgb(234, 226, 226);
+    margin-top: 1px;
+    
+}
+.card{
+    background-color: azure;
+    width: 90%;
+    max-width: 430px;
+    
+    border-radius: 25px;
+    color: white;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    text-align: center;
+    padding: 40px ;
+    margin-left: 65vh ;
+    margin-top: 40px;
+}
+
+
+.search{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    
+    
+   justify-content: center;
+}
+.ser{
+    
+    height: 15px;
+}
+.text{
+    margin-right: 20px;
+    height: 20px;
+    
+    width: 90%;
+    max-width: 430px;
+}
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 20px;
+    margin-top: 50px;;
+    
+}
+.we{
+    height: 60px;
+    padding: 20px;
+}
+.humidity{
+    display: block;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+
+}
+.humidity,.wind{
+    font-size: large;
+}
+.main img{
+    height: 25vh;
+}
+.imp{
+    color: white;
+    text-emphasis-color: white
+    ;
+}
+.city{
+    padding: 0px;
+    margin: 0px;;
+}
